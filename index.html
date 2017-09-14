@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>fire</title>
+	<style type="text/css">
+	body{
+		margin: 0;padding: 0;
+		background: pink;
+	}
+    .content{
+        background: url(foxtail.png);
+        width:156px;
+		height:156px;
+		margin: 0 auto;
+		margin-top: 150px;
+		animation: move 3.75s steps(44) infinite
+		/*神奇的steps*/
+
+    }
+
+		@keyframes move{
+			0%{
+				background-position:-6864px 0;
+              }
+              100%{
+              	background-position:0 0;
+              }
+		}
+	</style>
+</head>
+<body>
+	<div class="content"></div>
+</body>
+</html>
